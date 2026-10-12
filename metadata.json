@@ -1,0 +1,10 @@
+{
+  "name": "DermaVision AI - Skin Disease Detection & Clinical Triage System",
+  "description": "An intelligent computer vision skin disease analysis platform providing real-time lesion classification, ABCDE melanoma checks, and clinical diagnostic insights.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

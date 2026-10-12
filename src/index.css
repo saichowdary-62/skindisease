@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-stone-50: #f3f8f4;
+  --color-stone-100: #e7f1e9;
+  --color-stone-200: #cfdfd2;
+  --color-stone-300: #b1c9b7;
+  --color-stone-400: #8eae97;
+  --color-stone-500: #6c9278;
+  --color-stone-600: #52775f;
+  --color-stone-700: #3b6049;
+  --color-stone-800: #294b38;
+  --color-stone-900: #1c382a;
+  --color-stone-950: #10271c;
+}
+
+.font-brand {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: 0;
+}
+
+.font-aesthetic {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: -0.025em;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  header, nav, button, .print\:hidden {
+    display: none !important;
+  }
+}

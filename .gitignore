@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+coverage/
+.venv-localmodel/
+models/ham10000/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+.env*
+!.env.example
